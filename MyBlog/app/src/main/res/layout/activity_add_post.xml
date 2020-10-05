@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addPost">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@mipmap/baseline_add_photo_alternate_black_18dp"
+            android:id="@+id/postImageButton"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="center"
+            android:background="@drawable/input_outline"
+            android:layout_margin="1dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/postTitle"
+            android:background="@drawable/input_outline"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:hint="Post Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/postDescriptions"
+            android:background="@drawable/input_outline"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:hint="Post description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="10dp"
+            android:text="Submit Post"
+            android:textSize="15sp"
+            android:background="@color/myblue"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/submit_button"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

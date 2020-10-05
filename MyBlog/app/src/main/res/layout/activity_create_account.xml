@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:orientation="vertical"
+    android:weightSum="8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/login_card"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:layout_marginTop="20dp"
+        >
+
+    <EditText
+        android:id="@+id/fullNameAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint=" Full Name"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:background="@drawable/post_row_outline"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="6dp"
+        android:drawableStart="@drawable/baseline_account_circle_black_18dp"/>
+
+    <EditText
+        android:id="@+id/emailAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint=" Email Address"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:background="@drawable/post_row_outline"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="6dp"
+        android:drawableStart="@drawable/baseline_email_black_18dp"/>
+
+    <EditText
+        android:id="@+id/passwordAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:background="@drawable/post_row_outline"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="6dp"
+        android:drawableStart="@drawable/baseline_lock_black_18dp"/>
+
+    <EditText
+        android:id="@+id/phoneAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint=" Phone no."
+        android:inputType="phone"
+        android:textSize="18sp"
+        android:background="@drawable/post_row_outline"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="6dp"
+        android:drawableStart="@drawable/baseline_phone_black_18dp"/>
+
+    <EditText
+        android:id="@+id/collegenameAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint=" Name of Institute"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:background="@drawable/post_row_outline"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="6dp"
+        android:drawableStart="@drawable/baseline_school_black_18dp"/>
+
+    <EditText
+        android:id="@+id/addressAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint=" Address"
+        android:inputType="textPostalAddress"
+        android:textSize="18sp"
+        android:background="@drawable/post_row_outline"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="6dp"
+        android:drawableStart="@drawable/outline_home_black_18dp"/>
+
+    <Button
+        android:id="@+id/createaccountAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_button_outline"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Create Account"
+        android:textColor="#F5F5F8"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/login_page_bottom"></LinearLayout>
+
+
+</LinearLayout>
